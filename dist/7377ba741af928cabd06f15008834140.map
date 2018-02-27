@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,oDAAoD;AACpD,KAAK,CAAC,MAAM,EAAE,CAAC,MAAM,CAAC,mBAAmB,CAAC,CAAC,CAAC","file":"7377ba741af928cabd06f15008834140.map","sourcesContent":["/// <reference path=\"./mytypes/moment.custom.d.ts\"/>\nalert(moment().format(\"YYYYMMDD hh:mm:ss\"));\n"]}
