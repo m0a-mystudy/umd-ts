@@ -74,7 +74,7 @@ require = (function (modules, cache, entry) {
 /// <reference path="./mytypes/moment.custom.d.ts"/>
 alert(moment().format("YYYYMMDD hh:mm:ss"));
 
-},{}],4:[function(require,module,exports) {
+},{}],3:[function(require,module,exports) {
 
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
@@ -94,7 +94,7 @@ module.bundle.Module = Module;
 
 if (!module.bundle.parent && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
-  var ws = new WebSocket('ws://' + hostname + ':' + '61153' + '/');
+  var ws = new WebSocket('ws://' + hostname + ':' + '53024' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -195,5 +195,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.require, id);
   });
 }
-},{}]},{},[4,2])
+},{}]},{},[3,2])
 //# sourceMappingURL=/dist/7377ba741af928cabd06f15008834140.map

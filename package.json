@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "parcel -o src/index.html"
+  },
   "dependencies": {
     "moment": "2.20.1"
   },
